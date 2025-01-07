@@ -1,5 +1,0 @@
-run file 'run_model.py'
-
-need to set on lines 11 and 12
-IMAGES_ROOT = 'probe_dataset/probe_images'  # this is where your pictures are saved
-MODEL = 'VGG'                               # this is the model you want to run, either "VGG" or "mobilenet"
