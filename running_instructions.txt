@@ -1,7 +1,15 @@
-run file 'run_model.py'
+run file 'run_model.py' to generate predictions using trained model
 
 need to set on lines 11 and 12
 IMAGES_ROOT = 'probe_dataset/probe_images'  # this is where your pictures are saved
 MODEL = 'VGG'                               # this is the model you want to run, either "VGG" or "mobilenet"
 
 It will save a file 'my_predictions.json' which contains all the predictions in the same format as they were given.
+
+
+code.ipynb is the development environment and shows all the steps including hyper parameter tuning.
+metrics.py is where MAP and IoU are calculated. 
+model_functions.py contains the model definition and code to make predictions
+
+GitHub link:
+https://github.com/M-Morris-95/Probe-Detection-Using-Deep-Learning
